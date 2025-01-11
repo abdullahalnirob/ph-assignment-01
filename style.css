@@ -239,7 +239,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 20px;
   background-color: #fff;
   padding: 60px;
   border-radius: 10px;
@@ -253,7 +253,7 @@ p {
 }
 .news .cards .card .date {
   font-size: 16px;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 .news .cards .card .date span {
   margin: 0 10px;
