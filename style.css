@@ -127,12 +127,24 @@ body {
 }
 .vision .card .btn-blue {
   background-color: #5490f5;
+  transition: 0.2s ease-in-out;
+}
+.vision .card .btn-blue:hover {
+  background-color: #307bfc;
 }
 .vision .card .btn-green {
   background-color: #09a15c;
+  transition: 0.2s ease-in-out;
+}
+.vision .card .btn-green:hover {
+  background-color: #008549;
 }
 .vision .card .btn-yellow {
   background-color: #ffc239;
+  transition: 0.2s ease-in-out;
+}
+.vision .card .btn-yellow:hover {
+  background-color: #e4a511;
 }
 .vision .card h2,
 p {
@@ -240,7 +252,7 @@ p {
   margin-top: 20px;
 }
 .news .cards .card .date span {
-  margin:0 10px;
+  margin: 0 10px;
 }
 .news .cards .card button {
   padding: 14px 23px;
@@ -279,6 +291,12 @@ p {
   border-radius: 10px;
   font-size: 30px;
   font-weight: bold;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+
+}
+.donate .card:hover{
+  background-color: rgba(198, 228, 214, 1);
 }
 .donate .cards .active {
   background-color: rgba(198, 228, 214, 1);
@@ -358,6 +376,9 @@ p {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
+.subscribe-newslater button:hover{
+  background-color: #004a38;
+}
 footer {
   padding: 70px 10px;
   margin-top: 100px;
@@ -368,7 +389,7 @@ footer {
   background-color: #fff;
   flex-direction: column;
 }
-.icons{
+.icons {
   display: flex;
   align-items: center;
   gap: 20px;
