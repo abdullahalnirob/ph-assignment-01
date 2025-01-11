@@ -164,7 +164,7 @@ p {
 }
 /* younus-sir */
 .younus-sir-section {
-  padding: 12px 21px;
+  padding: 6px 17px;
   margin-top: 120px;
   border: 1px solid #ccc;
   background-color: #fff;
@@ -174,8 +174,12 @@ p {
   background-image: url("./assets/quote-bg.png");
   background-position: top left;
   background-repeat: no-repeat;
-  /* margin: 10px 0; */
-  /* padding: 10px 30px; */
+}
+.younus-sir-section .position {
+  color: #505050;
+}
+.younus-sir {
+  padding: 20px 15px;
 }
 .younus-sir h3 {
   margin: 20px 0;
@@ -291,11 +295,10 @@ p {
   border-radius: 10px;
   font-size: 30px;
   font-weight: bold;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
-
 }
-.donate .card:hover{
+.donate .card:hover {
   background-color: rgba(198, 228, 214, 1);
 }
 .donate .cards .active {
@@ -376,7 +379,7 @@ p {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-.subscribe-newslater button:hover{
+.subscribe-newslater button:hover {
   background-color: #004a38;
 }
 footer {
